@@ -1,4 +1,5 @@
 <?php
+    date_default_timezone_set("Europe/Bratislava");
     $timestamp = time();
     $currentDate = gmdate('d. m. Y H:i:s', $timestamp);
 
